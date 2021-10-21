@@ -1,3 +1,5 @@
+--create the patients table
+
 create table Patients (
     id serial primary key,
     signup_date date,
@@ -16,6 +18,8 @@ create table Bookings (
     patient_id int,
     revenue int
 );
+
+--create the bookings table
 
 insert into Bookings (booking_date,patient_id,revenue) values 
 ('2021-08-16','1','100'),
